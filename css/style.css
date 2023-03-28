@@ -126,3 +126,15 @@ font-size: 38px;
         margin-top: 50px;
     }
 }
+@media(max-width:768px){
+    #pokemonunDogusu img{
+        width: inherit;
+    }
+}
+@media(max-width:768px){
+    #twitter-widget-0{
+        width: 400px !important;
+        margin-top: 5px !important;
+        margin-bottom: 15px !important;
+    }
+}
