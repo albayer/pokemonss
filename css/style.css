@@ -8,153 +8,230 @@
 }
 
 
-#topHeader{
+#topHeader {
     font-size: 19px;
-    color:black;
+    color: black;
     background-color: #e5ffff;
 }
-.nav-link{
-margin-left: 110px;
-font-weight: bold;
+
+.nav-link {
+    margin-left: 110px;
+    font-weight: bold;
 }
+
 #menu,
-#bottomFooter{
+#bottomFooter {
     background-color: darkblue;
 }
-.bi{
-font-size: 38px;
+
+.bi {
+    font-size: 38px;
     color: black;
     padding: 10px;
 }
+
 #socialmedia {
-    background-color: #e5ffff ;
+    background-color: #e5ffff;
 }
-#centerFooter{
+
+#centerFooter {
     background-color: #e5ffff;
     padding: 15px;
 }
-#centerFooter a{
+
+#centerFooter a {
     color: black !important;
     text-decoration: none;
 }
-#pokemons .card-body{
+
+#pokemons .card-body {
     height: 80px;
-    
+
 }
-#indexPokemon .card-body{
+
+#indexPokemon .card-body {
     margin-top: -20px;
 }
-#indexPokemon .card-body{
+
+#indexPokemon .card-body {
     text-align: justify;
 }
-#indexPokemon button{
+
+#indexPokemon button {
     background-color: blue !important;
 }
-/* #pokemons .card{
-    border-radius: 15%;
-} */
-#pokemons .col-md-8, .card{
+
+#pokemons .col-md-8,
+.card {
     border-radius: 10%;
 }
-#pokemons .col-md-8{
+
+#pokemons .col-md-8 {
     background-color: dodgerblue;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        margin-left: 56px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 56px;
 }
-#pokemons hr{
+
+#pokemons hr {
     margin-top: 0px;
 }
-#bi{
+
+#bi {
     color: gold;
 }
-#banner{
+
+#banner {
     background-attachment: fixed;
     background-size: cover;
     padding: 250px 0px;
 }
-#cardd:hover{
-    background-color:darkgrey;
+
+#cardd:hover {
+    background-color: darkgrey;
 }
 
-@media(max-width:768px){
-    #bodyHeader .col-md-2.my-2, #indexPokemon, #footer, #pokemons{
+#bodyHeader .col-md-2 img,
+#centerFooter .col-md-1 img {
+    width: 130px !important;
+    text-align: center !important;
+}
+
+@media(max-width:768px) {
+
+    #bodyHeader .col-md-2.my-2,
+    #indexPokemon,
+    #footer,
+    #pokemons {
         text-align: center !important;
     }
 }
-@media(max-width:768px){
-    #menu .col-md-12 .navbar-toggler{
+
+@media(max-width:768px) {
+    #menu .col-md-12 .navbar-toggler {
         background-color: #e5ffff;
+        font-size: 25px;
+        font-weight: bolder !important;
     }
 }
-@media(max-width:768px){
-    #footer .col-md-3{
+
+@media(max-width:768px) {
+    #menu .col-md-12 .navbar-toggler-icon {
+        padding-right: 1px;
+        padding-top: 3px;
+    }
+}
+
+@media(max-width:768px) {
+    #footer .col-md-3 {
         margin-top: 5px;
         margin-bottom: 5px;
     }
 }
-@media(max-width:768px){
-    #pokemons .col-md-8{
+
+/* @media(max-width:768px) {
+    #pokemons .col-md-8 {
         margin-left: 0px !important;
     }
-}
-@media(max-width:768px){
-    #pageNumber{
+} */
+
+@media(max-width:768px) {
+    #pageNumber {
         margin-left: -387px !important;
     }
 }
-@media(max-width:768px){
-    #banner{
+
+@media(max-width:768px) {
+    #banner {
         background-image: cover;
     }
 }
-@media(max-width:768px){
-    #info .col-md-8 h2{
+
+@media(max-width:768px) {
+    #info .col-md-8 h2 {
         text-align: center;
     }
 }
-@media(max-width:768px){
-    #info{
+
+@media(max-width:768px) {
+    #info {
         padding-left: 10px;
         padding-right: 10px;
     }
 }
-@media(max-width:768px){
-    .modal-content{
+
+@media(max-width:768px) {
+    .modal-content {
         width: 380px;
         margin-left: -2px;
         margin-top: 50px;
     }
 }
-@media(max-width:768px){
-    #pokemonunDogusu img{
+
+@media(max-width:768px) {
+    #pokemonunDogusu img {
         width: inherit;
     }
 }
-@media(max-width:768px){
-    #twitter-widget-0{
+
+@media(max-width:768px) {
+    #twitter-widget-0 {
         width: 400px !important;
         margin-top: 5px !important;
         margin-bottom: 15px !important;
     }
 }
-@media(max-width:768px){
-    #Balbasaur .row .card{
-        width: 355px !important;
+
+@media(max-width:768px) {
+    #detail .row .card {
+        width: 355px;
     }
 }
-/* @media(max-width:768px){
-    #Balbasaur .row .card{
-        margin-left: -15px;
-    }
-} */
-@media(max-width:768px){
-#Charizard .row .card {
-    width: 355px;
-}
-}
-@media(max-width:768px){
-    .col-md-8 #bi{
+
+@media(max-width:768px) {
+    .col-md-8 #bi {
         font-size: 34px !important;
+    }
+}
+
+@media(max-width:768px) {
+
+    #topHeader .col-12 h5,
+    #socialmedia .col-12 h4,
+    #bottomFooter .col-md-6 {
+        font-size: 13px !important;
+    }
+}
+
+@media(max-width:768px) {
+    #socialmedia .col-12 a .bi {
+        font-size: 23px;
+    }
+}
+
+@media(max-width:768px) {
+    #about .col-md-12 {
+        width: 355px;
+    }
+}
+
+@media(max-width:768px) {
+    #about .col-md-12 h2 {
+        text-align: center;
+    }
+}
+
+@media(max-width:768px) {
+
+    #pokemons .card .row .col-md-4,
+    #pokemons .card .row .col-md-4 .col-md-8 {
+        width: 220px !important;
+    }
+}
+
+@media(max-width:768px) {
+    #indexPokemon .col-md-4 .card {
+        width: 300px !important;
+        margin-left: 33px !important;
     }
 }
