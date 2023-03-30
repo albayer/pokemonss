@@ -129,12 +129,6 @@
     }
 }
 
-/* @media(max-width:768px) {
-    #pokemons .col-md-8 {
-        margin-left: 0px !important;
-    }
-} */
-
 @media(max-width:768px) {
     #pageNumber {
         margin-left: -387px !important;
