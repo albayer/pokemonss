@@ -206,6 +206,7 @@
 @media(max-width:768px) {
     #about .col-md-12 {
         width: 355px;
+        margin-left: 1px;
     }
 }
 
@@ -215,7 +216,7 @@
     }
 }
 
-@media(max-width:768px) {
+@media(min-width:768px) and (max-width: 1024px) {
 
     #pokemons .card .row .col-md-4,
     #pokemons .card .row .col-md-4 .col-md-8 {
