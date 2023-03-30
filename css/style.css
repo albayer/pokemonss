@@ -216,13 +216,13 @@
     }
 }
 
-@media(min-width:320px) and (max-width: 768px) {
+/* @media(min-width:320px)(max-width: 768px) {
 
     #pokemons .card .row .col-md-4,
     #pokemons .card .row .col-md-4 .col-md-8 {
         width: 220px !important;
     }
-}
+} */
 
 @media(max-width:768px) {
     #indexPokemon .col-md-4 .card {
