@@ -227,5 +227,6 @@
 @media(max-width:768px) {
     #indexPokemon .col-md-4 .card {
         width: 300px !important;
+        margin: auto !important;
     }
 }
