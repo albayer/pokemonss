@@ -221,7 +221,7 @@
     #pokemons .card .row .col-md-4,
     #pokemons .card .row .col-md-4 .col-md-8 {
         width: 220px !important;
-        margin-left: 36px;
+        margin-left: 34px;
     }
 }
 
