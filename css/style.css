@@ -221,13 +221,11 @@
     #pokemons .card .row .col-md-4,
     #pokemons .card .row .col-md-4 .col-md-8 {
         width: 220px !important;
-        margin-left: 30px;
     }
 }
 
 @media(max-width:768px) {
     #indexPokemon .col-md-4 .card {
         width: 300px !important;
-        margin-left: 33px !important;
     }
 }
