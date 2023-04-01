@@ -225,6 +225,13 @@
 }
 
 @media(max-width:768px) {
+
+    #pokemons .card .row {
+        margin-left: -13px !important;
+    }
+}
+
+@media(max-width:768px) {
     #indexPokemon .col-md-4 .card {
         width: 300px !important;
         margin: auto !important;
