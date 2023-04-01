@@ -204,6 +204,7 @@
 }
 
 @media(max-width:768px) {
+
     #about .col-md-12,
     #detail .row .card {
         width: 355px;
