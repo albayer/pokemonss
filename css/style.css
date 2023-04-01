@@ -97,6 +97,14 @@
     text-align: center !important;
 }
 
+#about .row .col-md-12{
+    margin-left: 6px !important;
+}
+
+#about .row{
+    width: 1040px !important;
+}
+
 @media(max-width:768px) {
 
     #bodyHeader .col-md-2.my-2,
@@ -203,10 +211,15 @@
     }
 }
 
+@media(max-width:768px){
+    #about .row{
+        margin: auto !important;
+    }
+}
+
 @media(max-width:768px) {
     #about .col-md-12 {
         width: 355px;
-        margin-left: 1px;
     }
 }
 
@@ -225,7 +238,6 @@
 }
 
 @media(max-width:768px) {
-
     #pokemons .card .row {
         margin-left: -13px !important;
     }
@@ -235,5 +247,6 @@
     #indexPokemon .col-md-4 .card {
         width: 300px !important;
         margin: auto !important;
+        padding: auto !important;
     }
 }
