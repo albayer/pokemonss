@@ -46,14 +46,10 @@
 
 #pokemons .card-body {
     height: 80px;
-
 }
 
 #indexPokemon .card-body {
     margin-top: -20px;
-}
-
-#indexPokemon .card-body {
     text-align: justify;
 }
 
@@ -97,11 +93,11 @@
     text-align: center !important;
 }
 
-#about .row .col-md-12{
+#about .row .col-md-12 {
     margin-left: 6px !important;
 }
 
-#about .row{
+#about .row {
     width: 1040px !important;
 }
 
@@ -110,7 +106,9 @@
     #bodyHeader .col-md-2.my-2,
     #indexPokemon,
     #footer,
-    #pokemons {
+    #pokemons,
+    #info .col-md-8 h2,
+    #about .col-md-12 h2 {
         text-align: center !important;
     }
 }
@@ -150,12 +148,6 @@
 }
 
 @media(max-width:768px) {
-    #info .col-md-8 h2 {
-        text-align: center;
-    }
-}
-
-@media(max-width:768px) {
     #info {
         padding-left: 10px;
         padding-right: 10px;
@@ -185,12 +177,6 @@
 }
 
 @media(max-width:768px) {
-    #detail .row .card {
-        width: 355px;
-    }
-}
-
-@media(max-width:768px) {
     .col-md-8 #bi {
         font-size: 34px !important;
     }
@@ -211,21 +197,16 @@
     }
 }
 
-@media(max-width:768px){
-    #about .row{
+@media(max-width:768px) {
+    #about .row {
         margin: auto !important;
     }
 }
 
 @media(max-width:768px) {
-    #about .col-md-12 {
+    #about .col-md-12,
+    #detail .row .card {
         width: 355px;
-    }
-}
-
-@media(max-width:768px) {
-    #about .col-md-12 h2 {
-        text-align: center;
     }
 }
 
